@@ -1,0 +1,10 @@
+apiVersion : v1
+kind : Pod
+metadata:
+        labels:
+                app: front-end
+        name: satheesh
+spec:
+        containers:
+                - image: redis
+                  name: redis

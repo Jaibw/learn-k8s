@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        labels:
+                app:front-end
+        name: sanyam
+spec:
+        containers:
+                - name: nginx
+                  image: nginx
